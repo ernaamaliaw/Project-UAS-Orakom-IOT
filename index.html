@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <title>INDEKS KEPUASAN...</title>
+    </head>
+    <body style="background: rgb(242, 242, 242);">
+        <div class="jumbotron jumbotron-fluid bg-info text-white">
+            <div class="container text-center">
+              <h1 class="display-4">EST04 Travel</h1>
+              <p class="lead">
+                <h2>Mohon Berikan Penilaian Anda <br> Mengenai Layanan Kami</h2>
+              </p>
+            </div>
+        </div>
+
+        <style type="text/css">
+            .box{
+                padding: 30px 40px;
+                border-radius: 5px;
+            }
+        </style>
+
+    <!--awal container-->
+        <div class="container">
+            <div class="alert alert-warning" role="alert">
+                Untuk Memberikan Penilaian Silakan Klik Icon atau Emoji dan Ketikkan Saran.
+            </div>
+
+            <div class="row"> 
+                <div class="col-md-4">
+                    <div class="bg-success box text-white">
+                        <div class="row ">
+                            <div class="col-md-6 ">
+                                <h5>Memuasakan</h5>
+                                <h2>[ ]</h2>
+                                <h5> suara</h5>
+                            </div>
+                            <div class="col-md-6"> 
+                                <a href="simpan.php?ket=puas" title="Jika Merasa Puas dengan Pelayanan Kami, Klik Icon ini">
+                                    <img src="D:\Kuliah\Orakom\Project UAS\puas.png" style="width: 100px;">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="bg-warning box text-white">
+                        <div class="row ">
+                            <div class="col-md-6 ">
+                                <h5>Cukup</h5>
+                                <h2>[ ]</h2>
+                                <h5> suara</h5>
+                            </div>
+                            <div class="col-md-6"> 
+                                <a href="simpan.php?ket=cukup" title="Jika Merasa cukup dengan Pelayanan Kami, Klik Icon ini">
+                                    <img src="D:\Kuliah\Orakom\Project UAS\cukup.png" style="width: 100px;">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="bg-danger box text-white">
+                        <div class="row ">
+                            <div class="col-md-6 ">
+                                <h5>Kurang</h5>
+                                <h2>[ ]</h2>
+                                <h5> suara</h5>
+                            </div>
+                            <div class="col-md-6"> 
+                                <a href="simpan.php?ket=kurang" title="Jika Merasa Kurang dengan Pelayanan Kami, Klik Icon ini">
+                                    <img src="D:\Kuliah\Orakom\Project UAS\kurang.png" style="width: 100px;">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <form method="post" action="/contact#contact_form" id="contact_form" accept-charset="UTF-8" class="contact-form"><input type="hidden" name="form_type" value="contact" /><input type="hidden" name="utf8" value="✓" />
+
+		
+		
+		
+		
+                <div class="form-group">
+                <label for="ContactFormName">Nama</label>
+                <input type="text"
+                    name="contact[name]"
+                    id="ContactFormName"
+                    maxlength="50"
+                    placeholder="Nama"
+                    value=""
+                    class="form-control"
+                    required >
+                </div>
+                <div class="form-group">
+                <label for="ContactFormEmail">Email</label>
+                <input type="email"
+                    name="contact[email]"
+                    id="ContactFormEmail"
+                    placeholder="Email"
+                    value=""
+                    spellcheck="false"
+                    maxlength="50"
+                    autocomplete="off"
+                    autocapitalize="off"  
+                    class="form-control"
+                    required>
+                </div>
+            
+                <div class="form-group">
+                <label for="ContactFormPhone">No HP</label>
+                <input type="tel"
+                    name="contact[phone]"
+                    id="ContactFormPhone"
+                    maxlength="12"
+                    placeholder="No HP"
+                    value=""
+                    pattern="[0-9\-]*" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="ContactFormAddress">Alamat</label>
+                    <input type="Alamat"
+                        name="contact[Address]"
+                        id="ContactFormAddress"
+                        maxlength="12"
+                        placeholder="Alamat"
+                        value=""
+                        pattern="[0-9\-]*" class="form-control">
+                    </div>
+            
+                <div class="form-group">
+                <label for="ContactFormMessage">Message</label>
+                <textarea rows="10"
+                    maxlength="2000"
+                    name="contact[body]"
+                    id="ContactFormMessage"
+                    placeholder="Message" 
+                    class="form-control"
+                    required></textarea>
+                </div>
+            
+                <input type="submit" class="button btn btn-primary" value="Send" style="background-color: #171e2e;">
+            
+            </form>
+        </div>
+
+        
+    <!--akhir container-->
+        <footer class="bg-info text-center text-white mt-3 bt-2 pb-2">
+            © COPYRIGHT | 14495_TALISTA | 14500_SAFAIRA | 14506_ERNA 
+        </footer>
+
+
+
+    </body>
+</html>
